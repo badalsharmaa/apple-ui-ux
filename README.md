@@ -1,51 +1,65 @@
-<a href="https://animations.dev/">
-<img width="320" height="168" alt="opengraph-image-pwu6ef" src="https://github.com/user-attachments/assets/a405a37f-1a1a-4e8d-8fd6-269ee6d4fba6" />
-</a>
+<div align="center">
 
-# Skills For Designers and Engineers
+# 🍎 Apple & Emil UI/UX Design Engineering Skills
 
-[![skills.sh](https://skills.sh/b/emilkowalski/skills)](https://skills.sh/emilkowalski/skills)
+**A curated suite of agentic skills, design heuristics, and motion engineering principles for modern software.**
 
-For designers and engineers to help them build better user interfaces.
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Status: Active](https://img.shields.io/badge/Status-Maintained-success.svg)]()
 
-Knowing whether you made a right choice when it comes to animations, or design in general, is hard. These skills aim to help you get to those right decisions faster.
+</div>
 
-They are based on my years of experience working at companies like Vercel and Linear.
+---
 
-All the skills here are a side-effect of domain-expertise. AI doesn’t replace such expertise, it amplifies what you can get out of it and makes you way better relative to others.
+## 📖 Overview
 
-So learn to code, design, or develop expertise in any other field. It’s extremely valuable.
+This repository contains a comprehensive suite of **Design Engineering and Motion Design Skills** formulated for AI coding assistants (such as Antigravity, Claude Code, Cursor, Windsurf, and Copilot) as well as human developers and designers.
 
-You can stay up to date with my skills here:
+Building interfaces with high polish, deliberate motion, and physical tactility is challenging. AI models often lack intrinsic design taste—selecting linear easings for enter transitions, unnatural spring parameters, or jarring popover animations. This collection encodes proven rules, motion physics, and design craftsmanship into actionable, agent-readable instruction files.
 
-[Sign Up To The Newsletter](https://animations.dev/skills)
+---
 
-## Install
+## 📦 Skills Directory & Reference
 
+| Skill | Path | Description |
+|---|---|---|
+| **🎨 emil-design-eng** | [`skills/emil-design-eng/SKILL.md`](./skills/emil-design-eng/SKILL.md) | Core UI polish guidelines, component design heuristics, and micro-interaction details. |
+| **🍎 apple-design** | [`skills/apple-design/SKILL.md`](./skills/apple-design/SKILL.md) | Apple's Human Interface Guidelines, fluid gesture interactions, and WWDC motion principles adapted for the web. |
+| **⚡ animate** | [`skills/animate/SKILL.md`](./skills/animate/SKILL.md) | Step-by-step decision framework to build animations from scratch (property selection, duration, easing, interrupts). |
+| **🔍 review-animations** | [`skills/review-animations/SKILL.md`](./skills/review-animations/SKILL.md) | Strict critique and code review checklist for existing CSS/JS animations and spring physics. |
+| **🛠️ improve-animations** | [`skills/improve-animations/SKILL.md`](./skills/improve-animations/SKILL.md) | Repository-wide animation audit that outputs prioritized, self-contained implementation plans. |
+| **💡 find-animation-opportunities** | [`skills/find-animation-opportunities/SKILL.md`](./skills/find-animation-opportunities/SKILL.md) | Discover areas in your UI that will benefit from motion while rejecting unnecessary animations. |
+| **📚 animation-vocabulary** | [`skills/animation-vocabulary/SKILL.md`](./skills/animation-vocabulary/SKILL.md) | Reverse-lookup glossary translating human descriptions into precise motion design terminology. |
+| **📦 pick-ui-library** | [`skills/pick-ui-library/SKILL.md`](./skills/pick-ui-library/SKILL.md) | Intelligent UI component library recommendation based on battle-tested modern tools. |
+| **🧪 prototype** | [`skills/prototype/SKILL.md`](./skills/prototype/SKILL.md) | Rapid UI variant generator with interactive switchers to compare multiple designs. |
+
+---
+
+## 🚀 How to Use
+
+### 1. In AI Coding Assistants & Agents
+Copy any skill folder (or the entire `skills/` directory) into your project's agent instructions folder (e.g. `.gemini/skills/`, `.claude/skills/`, or `.cursor/rules/`), or prompt your AI agent directly:
+
+```text
+Please read 'skills/apple-design/SKILL.md' and apply Apple interface guidelines and spring physics to this component.
+```
+
+### 2. Quick Installation via Skills CLI
 ```bash
 npx skills@latest add emilkowalski/skills
 ```
 
-## Why use it?
+---
 
-Agents don’t have great taste
+## 🛠️ Design & Motion Philosophy
 
-I have seen plenty of times that agents don’t pick the right ingredients for an animation. An `ease-in` easing for an enter animation when it’s supposed to be `ease-out` ([here’s why](https://emilkowal.ski/ui/7-practical-animation-tips#4.-choose-the-right-easing)). Or they choose a solid border instead of a semi-transparent shadow for your UIs.
+- **Natural Momentum & Physics:** Interfaces should react with weight, momentum, and appropriate damping rather than synthetic linear curves.
+- **Interruption Over Rigidity:** Interactive transitions should be cancelable and continuous when user input changes mid-animation.
+- **Visual Restraint:** Motion exists to clarify hierarchy, orient spatial position, and provide feedback—not to distract.
+- **Subtle Layering:** Use semi-transparent shadows, dynamic borders, and backdrop blurs to establish depth without visual clutter.
 
-All these small things compound and make your interface either amazing, or just... not that great.
+---
 
-As explained in [Agents with Taste](https://emilkowal.ski/ui/agents-with-taste), these skills list all the little mistakes agents can potentially make and explain how to fix them.
+## 📄 License
 
-This is your shortcut to great interfaces. A shortcut to stand out in a sea of slop.
-
-## Reference
-
-- **[emil-design-eng](./skills/emil-design-eng/SKILL.md)** — The main skill that consists of mostly animation, but also some design advice.
-- **[animate](./skills/animate/SKILL.md)** — Builds an animation from scratch while choosing the correct curve, duration, properties, and so on.
-- **[review-animations](./skills/review-animations/SKILL.md)** — Review your animations in a strict way, based on my rules.
-- **[improve-animations](./skills/improve-animations/SKILL.md)** — Audit all the animations in your codebase and get prioritized, self-contained plans that any agent can execute.
-- **[find-animation-opportunities](./skills/find-animation-opportunities/SKILL.md)** — Search your UI for places that would genuinely benefit from motion, while also telling you what not to animate.
-- **[animation-vocabulary](./skills/animation-vocabulary/SKILL.md)** — Get better animations from an AI by telling it exactly what you want by using the right words.
-- **[apple-design](./skills/apple-design/SKILL.md)** — Apple’s principles for interface design and fluid motion, distilled from their WWDC design talks and translated for the web.
-- **[pick-ui-library](./skills/pick-ui-library/SKILL.md)** — Have your agent pick the right library for the task based on libraries I use and trust, instead of letting AI hand-roll a toast component or install an abandoned package.
-- **[prototype](./skills/prototype/SKILL.md)** — Build multiple different versions of a UI piece you describe and go through them using a switcher.
+This repository is licensed under the [MIT License](LICENSE).
